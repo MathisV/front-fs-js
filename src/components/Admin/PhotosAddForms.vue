@@ -60,7 +60,7 @@ export default {
   },
   methods: {
     handleFile(e) {
-      let file = e.target.files[0];
+      const file = e.target.files[0];
       this.state = { file };
     },
     addPhoto() {
